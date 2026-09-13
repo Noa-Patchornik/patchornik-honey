@@ -61,14 +61,21 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link to="/" onClick={closeMenus} className="flex items-baseline gap-3 group">
-            <span className="font-display text-2xl tracking-tight text-primary leading-none">
-              פצ׳ורניק
-            </span>
-            <span className="hidden sm:inline-block text-[11px] font-medium tracking-[0.25em] text-muted-foreground uppercase border-r border-border pr-3">
-              1890
-            </span>
+         {/* Logo */}
+          <Link to="/" onClick={closeMenus} className="flex items-center gap-3 group">
+            <img 
+              src="images/logo.jpg" 
+              alt="לוגו מכוורת פצ׳ורניק" 
+              className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+            />
+            <div className="flex items-baseline gap-2">
+              <span className="font-display text-2xl tracking-tight text-primary leading-none">
+                פצ׳ורניק
+              </span>
+              <span className="hidden sm:inline-block text-[11px] font-medium tracking-[0.25em] text-muted-foreground uppercase border-r border-border pr-2.5">
+                1890
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

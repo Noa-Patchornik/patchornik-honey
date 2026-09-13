@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import HeroCarousel from "./images";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -58,18 +59,18 @@ export default function Hero() {
             transition={{ duration: 0.9, delay: 0.75 }}
             className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
           >
-            <a
-              href="#products"
+            <Link
+              to="/products"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               גלו את סדרת הדבש
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              to="/about"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border border-primary/40 text-primary font-semibold hover:bg-primary/5 transition-all duration-300"
             >
               סיפור המשפחה
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>

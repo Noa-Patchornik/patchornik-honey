@@ -3,20 +3,20 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1000&q=80",
-    alt: "דבש זהוב ניגר מכף עץ",
+    src: "images\\hamania.jpeg",
+    alt: "חמנייה עם דבורים",
   },
   {
-    src: "https://images.unsplash.com/photo-1471943311424-646960669fbc?auto=format&fit=crop&w=1000&q=80",
-    alt: "חלת דבש זהובה",
+    src: "images\\glass.jpeg",
+    alt: "צנצנת זכוכית",
   },
   {
-    src: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1000&q=80",
-    alt: "צנצנת דבש וכף עץ",
+    src: "images\\working.jpeg",
+    alt: "מהשדה לצנצנת",
   },
   {
-    src: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1000&q=80",
-    alt: "מכוורת מסורתית בשדה",
+    src: "images\\pouring.JPG",
+    alt: "מזיגת דבש",
   },
 ];
 

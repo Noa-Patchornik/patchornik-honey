@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 
 export default function KosherPage() {
   return (
-    <div className="min-h-screen bg-foreground text-background flex flex-col justify-between">
+    <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
       <Header />
       <main className="pt-20 flex-grow">
         <Kosher />

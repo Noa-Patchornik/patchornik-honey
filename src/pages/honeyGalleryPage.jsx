@@ -2,10 +2,12 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 const HONEY_GALLERY = [
-  { src: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80", title: "דבש ניגר" },
-  { src: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=800&q=80", title: "צנצנת זכוכית מסורתית" },
-  { src: "https://images.unsplash.com/photo-1471943311424-646960669fbc?auto=format&fit=crop&w=800&q=80", title: "חלת דבש טבעית" },
-  { src: "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?auto=format&fit=crop&w=800&q=80", title: "דבש פריחת הדרים" },
+  { src: "images/glass.jpeg", title: "דבש בזכוכית" },
+  { src: "images/pouring.JPG", title: "מזיגת דבש במפעל" },
+  { src: "images/honey.jpeg", title: "הצנצנות שלנו" },
+  { src: "images/father.jpeg", title: "דבש של אבא" },
+  { src: "images/halat-dvash.jpeg", title: "חלת דבש" },
+  { src: "images/plastic.jpeg", "title": "קילו וחצי דבש" },
 ];
 
 export default function HoneyGalleryPage() {
@@ -16,7 +18,6 @@ export default function HoneyGalleryPage() {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-xs font-semibold tracking-[0.3em] text-secondary uppercase">רגעים של זהב</span>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl mt-4">גלריית הדבש</h1>
-          <p className="mt-4 text-muted-foreground text-lg">גוונים, מרקמים וצנצנות מהקציר האחרון.</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {HONEY_GALLERY.map((img, i) => (

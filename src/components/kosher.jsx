@@ -22,9 +22,6 @@ export default function Kosher() {
         
         {/* כותרת ופסקת פתיחה */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-semibold tracking-[0.3em] text-secondary uppercase">
-            חותם הטהרה
-          </span>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl mt-4 leading-tight text-balance">
             תעודת <span className="text-primary">כשרות</span>
           </h1>

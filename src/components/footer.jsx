@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const [glow, setGlow] = useState(false);
@@ -21,10 +22,11 @@ export default function Footer() {
           <div>
             <h4 className="font-heading text-sm font-bold tracking-wider uppercase text-background/80 mb-4">ניווט</h4>
             <ul className="space-y-3">
-              <li><a href="#about" className="text-background/60 hover:text-primary transition-colors">אודות המכוורת</a></li>
-              <li><a href="#benefits" className="text-background/60 hover:text-primary transition-colors">יתרונות הדבש</a></li>
-              <li><a href="#kosher" className="text-background/60 hover:text-primary transition-colors">תעודת כשרות</a></li>
-              <li><a href="#products" className="text-background/60 hover:text-primary transition-colors">הדבשים שלנו</a></li>
+              <li><Link to="/about" className="text-background/60 hover:text-primary transition-colors">אודות המכוורת</Link></li>
+              <li><Link to="/#benefits" className="text-background/60 hover:text-primary transition-colors">יתרונות הדבש</Link></li>
+              <li><Link to="/kosher" className="text-background/60 hover:text-primary transition-colors">תעודת כשרות</Link></li>
+              <li><Link to="/products" className="text-background/60 hover:text-primary transition-colors">הדבשים שלנו</Link></li>
+              <li><Link to="/contact" className="text-background/60 hover:text-primary transition-colors">צור קשר</Link></li>
             </ul>
           </div>
 
@@ -32,8 +34,8 @@ export default function Footer() {
             <h4 className="font-heading text-sm font-bold tracking-wider uppercase text-background/80 mb-4">צרו קשר</h4>
             <ul className="space-y-3 text-background/60">
               <li>נס ציונה, מושבה היסטורית</li>
-              <li dir="ltr" className="text-right">טל׳ 08-123-4567</li>
-              <li>א׳–ה׳ 9:00–17:00</li>
+              <li dir="ltr" className="text-right">טל׳ 050-530-8770 </li>
+              <li>א׳–ה׳ 9:00–18:00</li>
             </ul>
             <div
               onMouseEnter={() => setGlow(true)}

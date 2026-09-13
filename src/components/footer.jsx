@@ -76,7 +76,8 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm text-[#bfae9e]">
               <li>נס ציונה, מושבה היסטורית</li>
-              <li dir="ltr" className="text-right">טל׳ 050-530-8770</li>
+              <li dir="ltr" className="text-right">טל׳ ניצן 050-530-8770</li>
+              <li dir="ltr" className="text-right">טל׳ תרזה 054-565-3070</li>
               <li>א׳–ה׳ 9:00–18:00</li>
             </ul>
 

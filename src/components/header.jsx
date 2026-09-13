@@ -53,10 +53,10 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 border-b border-border/70 ${
         scrolled
-          ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border"
-          : "bg-background/70 backdrop-blur-sm"
+          ? "bg-card/95 backdrop-blur-md shadow-md"
+          : "bg-card/80 backdrop-blur-sm shadow-sm"
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
